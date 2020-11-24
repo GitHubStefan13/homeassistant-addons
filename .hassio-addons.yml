@@ -1,0 +1,11 @@
+---
+channel: stable
+addons:
+  gitolite:
+    repository: hassio-addons/addon-gitolite
+    target: gitolite
+    image: dsgamingdev/gitolite-{arch}
+  octoprint:
+    repository: hassio-addons/addon-octoprint
+    target: octoprint
+    image: dsgamingdev/octoprint-{arch}
